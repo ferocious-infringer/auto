@@ -1,0 +1,22 @@
+{
+	"replace": "false",
+	"values": [
+		"#select:mob/custom",
+		"minecraft:illusioner",
+		"minecraft:vindicator",
+		"minecraft:evoker",
+		"minecraft:vex",
+		"minecraft:phantom",
+		"minecraft:witch",
+		"minecraft:magma_cube",
+		"minecraft:drowned",
+		"minecraft:chicken",
+		"minecraft:zombie_horse",
+		"minecraft:skeleton_horse",
+		"minecraft:rabbit",
+		"minecraft:enderman",
+		"minecraft:piglin_brute",
+		"minecraft:wither_skeleton",
+		"minecraft:slime"
+	]
+}

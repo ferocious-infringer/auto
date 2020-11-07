@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"O#O",
+		"O O",
+		"# #"
+	],
+	"key": {
+		"#": { "item": "minecraft:iron_ingot" },
+		"O": { "item": "minecraft:iron_nugget" }
+	},
+	"result": {
+		"item": "minecraft:chainmail_leggings",
+		"count": 1
+	}
+}

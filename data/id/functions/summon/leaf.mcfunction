@@ -1,0 +1,16 @@
+execute as @s[scores={id=1}] run summon item ~ ~ ~ {Item:{id:"minecraft:jungle_leaves",Count:1b}}
+execute as @s[scores={id=2}] run summon item ~ ~ ~ {Item:{id:"minecraft:oak_leaves",Count:1b}}
+execute as @s[scores={id=3}] run summon item ~ ~ ~ {Item:{id:"minecraft:spruce_leaves",Count:1b}}
+execute as @s[scores={id=4}] run summon item ~ ~ ~ {Item:{id:"minecraft:dark_oak_leaves",Count:1b}}
+execute as @s[scores={id=5}] run summon item ~ ~ ~ {Item:{id:"minecraft:acacia_leaves",Count:1b}}
+execute as @s[scores={id=6}] run summon item ~ ~ ~ {Item:{id:"minecraft:birch_leaves",Count:1b}}
+execute as @s[scores={id=7}] run summon item ~ ~ ~ {Item:{id:"minecraft:vine",Count:1b}}
+execute as @s[scores={id=8}] run summon item ~ ~ ~ {Item:{id:"minecraft:nether_wart_block",Count:1b}}
+execute as @s[scores={id=9}] run summon item ~ ~ ~ {Item:{id:"minecraft:warped_wart_block",Count:1b}}
+execute as @s[scores={id=10}] run summon item ~ ~ ~ {Item:{id:"minecraft:shroomlight",Count:1b}}
+execute as @s[scores={id=11}] run summon item ~ ~ ~ {Item:{id:"minecraft:weeping_vines",Count:1b}}
+execute as @s[scores={id=12}] run summon item ~ ~ ~ {Item:{id:"minecraft:weeping_vines_plant",Count:1b}}
+execute as @s[scores={id=13}] run summon item ~ ~ ~ {Item:{id:"minecraft:twisting_vines",Count:1b}}
+execute as @s[scores={id=14}] run summon item ~ ~ ~ {Item:{id:"minecraft:twisting_vines_plant",Count:1b}}
+execute as @s[scores={id=15}] run summon item ~ ~ ~ {Item:{id:"minecraft:brown_mushroom_block",Count:1b}}
+execute as @s[scores={id=16}] run summon item ~ ~ ~ {Item:{id:"minecraft:red_mushroom_block",Count:1b}}

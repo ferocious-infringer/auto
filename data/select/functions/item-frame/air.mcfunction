@@ -1,0 +1,19 @@
+# execute as @s[nbt={Item:{id:"minecraft:",tag:{display:{Name:'{"text":""}'}}}}] run function
+
+execute as @s[nbt={Item:{id:"minecraft:composter",tag:{display:{Name:'{"text":"growth"}'}}}}] run function block:set/growth
+execute as @s[nbt={Item:{id:"minecraft:furnace",tag:{display:{Name:'{"text":"super"}'}}}}] run function block:direction/furnace
+execute as @s[nbt={Item:{id:"minecraft:hopper",tag:{display:{Name:'{"text":"super"}'}}}}] run function block:set/hopper
+execute as @s[nbt={Item:{id:"minecraft:magma_block",tag:{display:{Name:'{"text":"destroy"}'}}}}] run function block:set/destroy
+execute as @s[nbt={Item:{id:"minecraft:redstone_block",tag:{display:{Name:'{"text":"chunk-loader"}'}}}}] run function block:set/chunk
+execute as @s[nbt={Item:{id:"minecraft:dropper",tag:{display:{Name:'{"text":"transporter"}'}}}}] run function block:set/transporter
+execute as @s[nbt={Item:{id:"minecraft:redstone_lamp",tag:{display:{Name:'{"text":"lightning"}'}}}}] run function block:set/light
+execute as @s[nbt={Item:{id:"minecraft:barrel",tag:{display:{Name:'{"text":"duplicator"}'}}}}] run function block:set/duplicator
+execute as @s[nbt={Item:{id:"minecraft:stonecutter",tag:{display:{Name:'{"text":"death"}'}}}}] run function block:direction/death
+execute as @s[nbt={Item:{id:"minecraft:dispenser",tag:{display:{Name:'{"text":"teleporter"}'}}}}] run function block:set/teleporter
+execute as @s[nbt={Item:{id:"minecraft:enchanting_table",tag:{display:{Name:'{"text":"portal"}'}}}}] run function block:direction/portal
+execute as @s[nbt={Item:{id:"minecraft:redstone_torch",tag:{display:{Name:'{"text":"world-spawn"}'}}}}] run function block:set/spawn
+execute as @s[nbt={Item:{id:"minecraft:sponge",tag:{display:{Name:'{"text":"air"}'}}}}] run function block:set/air
+execute as @s[nbt={Item:{id:"minecraft:note_block",tag:{display:{Name:'{"text":"weather"}'}}}}] run function block:set/weather
+execute as @s[nbt={Item:{id:"minecraft:tnt",tag:{display:{Name:'{"text":"punch"}'}}}}] run function block:set/tnt
+execute as @s[nbt={Item:{id:"minecraft:brewing_stand",tag:{display:{Name:'{"text":"super"}'}}}}] run function block:set/brewing
+execute as @s[nbt={Item:{id:"minecraft:blue_ice",tag:{display:{Name:'{"text":"freeze"}'}}}}] run function block:set/freeze

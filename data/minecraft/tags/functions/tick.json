@@ -1,0 +1,7 @@
+{
+	"replace": "false",
+	"values": [
+		"select:generic",
+		"tmp:main"
+	]
+}

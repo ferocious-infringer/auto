@@ -1,0 +1,9 @@
+{
+	"replace": "false",
+	"values": [
+		"#block:ignore",
+		"minecraft:moving_piston",
+		"minecraft:piston_head",
+		"minecraft:magma_block"
+	]
+}

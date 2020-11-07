@@ -1,0 +1,11 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{ "item": "minecraft:obsidian" },
+		{ "item": "minecraft:blaze_powder" }
+	],
+	"result": {
+		"item": "minecraft:crying_obsidian",
+		"count": 1
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "smelting",
+	"ingredient": {
+		"tag": "minecraft:wool"
+	},
+	"result": "minecraft:sponge",
+	"experience": 1
+}

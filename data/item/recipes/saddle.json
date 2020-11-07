@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"OOO",
+		"O#O",
+		"# #"
+	],
+	"key": {
+		"#": { "item": "minecraft:iron_ingot" },
+		"O": { "item": "minecraft:leather" }
+	},
+	"result": {
+		"item": "minecraft:saddle",
+		"count": 1
+	}
+}

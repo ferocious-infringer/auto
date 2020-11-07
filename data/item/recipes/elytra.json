@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"# #",
+		"#O#",
+		"# #"
+	],
+	"key": {
+		"#": { "item": "minecraft:feather" },
+		"O": { "item": "minecraft:leather_chestplate" }
+	},
+	"result": {
+		"item": "minecraft:elytra",
+		"count": 1
+	}
+}

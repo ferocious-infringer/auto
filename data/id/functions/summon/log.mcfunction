@@ -1,0 +1,9 @@
+execute as @s[scores={id=1}] run summon item ~ ~ ~ {Item:{id:"minecraft:oak_log",Count:1b}}
+execute as @s[scores={id=2}] run summon item ~ ~ ~ {Item:{id:"minecraft:spruce_log",Count:1b}}
+execute as @s[scores={id=3}] run summon item ~ ~ ~ {Item:{id:"minecraft:birch_log",Count:1b}}
+execute as @s[scores={id=4}] run summon item ~ ~ ~ {Item:{id:"minecraft:jungle_log",Count:1b}}
+execute as @s[scores={id=5}] run summon item ~ ~ ~ {Item:{id:"minecraft:acacia_log",Count:1b}}
+execute as @s[scores={id=6}] run summon item ~ ~ ~ {Item:{id:"minecraft:dark_oak_log",Count:1b}}
+execute as @s[scores={id=7}] run summon item ~ ~ ~ {Item:{id:"minecraft:crimson_stem",Count:1b}}
+execute as @s[scores={id=8}] run summon item ~ ~ ~ {Item:{id:"minecraft:warped_stem",Count:1b}}
+execute as @s[scores={id=9}] run summon item ~ ~ ~ {Item:{id:"minecraft:mushroom_stem",Count:1b}}

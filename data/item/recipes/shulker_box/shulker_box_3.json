@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "shulker_box",
+	"pattern": [
+		"###",
+		"#O#",
+		"###"
+	],
+	"key": {
+		"#": { "item": "minecraft:leather" },
+		"O": { "item": "minecraft:barrel" }
+	},
+	"result": {
+		"item": "minecraft:brown_shulker_box",
+		"count": 1
+	}
+}

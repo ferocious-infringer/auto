@@ -1,0 +1,9 @@
+scoreboard players operation @s second = @s tick
+scoreboard players operation @s tick %= #20 constant
+scoreboard players operation @s second /= #20 constant
+scoreboard players operation @s minute = @s second
+scoreboard players operation @s second %= #60 constant
+scoreboard players operation @s minute /= #60 constant
+scoreboard players operation @s hour = @s minute
+scoreboard players operation @s minute %= #60 constant
+scoreboard players operation @s hour /= #60 constant

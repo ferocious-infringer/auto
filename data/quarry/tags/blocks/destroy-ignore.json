@@ -1,0 +1,9 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:air",
+		"minecraft:water",
+		"minecraft:bubble_column",
+		"minecraft:lava"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#O#",
+		"###"
+	],
+	"key": {
+		"#": { "item": "minecraft:obsidian" },
+		"O": { "item": "minecraft:egg" }
+	},
+	"result": {
+		"item": "minecraft:dragon_egg",
+		"count": 1
+	}
+}

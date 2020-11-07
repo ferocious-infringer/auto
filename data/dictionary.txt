@@ -1,0 +1,36 @@
+generic.max_health : UUID:[I;1,1,1,1]
+generic.movement_speed : UUID:[I;2,2,2,2]
+
+[ GENERIC NBT ]
+	[ Item Frame + Armor Stand ]
+		* invisible
+	[ Item Frame + Armor Stand + Mobs ]
+		* glowing
+	[ Armor Stand ]
+		* show-arms
+		* small
+		* no-base
+	[ Armor Stand + Mobs ]
+		* no-gravity
+		* name-visible
+		* invulnerable
+	[ Mobs ]
+		* silent
+		* no-ai
+		* pick-loot
+[ CUSTOM NBT ]
+	[ Armor Stand + Item Frame ]
+		* kill
+	[ Mobs ]
+		* kill
+		* invisible
+		* child
+	[ Breed ]
+		* child
+
+CustomPotionEffects Id:26b, Amplifier:0b = [Luck lvl 1] lightning arrow
+CustomPotionEffects Id:26b, Amplifier:1b = [Luck lvl 2] tnt arrow
+CustomPotionEffects Id:26b, Amplifier:2b = [Luck lvl 3] destroy arrow
+
+Recipes in minecraft namespace is used for overriding.
+Item namespace is used for custom recipe, either as entity or as crafting.

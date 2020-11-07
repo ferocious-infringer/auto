@@ -1,0 +1,12 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:polar_bear",
+		"minecraft:zombie",
+		"minecraft:husk",
+		"minecraft:drowned",
+		"minecraft:piglin",
+		"minecraft:zombified_piglin",
+		"minecraft:zoglin"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"group": "shulker_box",
+	"pattern": [
+		"O",
+		"X",
+		"O"
+	],
+	"key": {
+		"O": { "item": "minecraft:shulker_shell" },
+		"X": { "item": "minecraft:barrel" }
+	},
+	"result": {
+		"item": "minecraft:shulker_box",
+		"count": 1
+	}
+}

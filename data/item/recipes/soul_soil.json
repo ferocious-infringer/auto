@@ -1,0 +1,11 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{ "item": "minecraft:wither_rose" },
+		{ "item": "minecraft:dirt" }
+	],
+	"result": {
+		"item": "minecraft:soul_soil",
+		"count": 1
+	}
+}

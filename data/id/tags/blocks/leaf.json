@@ -1,0 +1,15 @@
+{
+	"replace": "false",
+	"values": [
+		"#minecraft:leaves",
+		"minecraft:vine",
+		"#minecraft:wart_blocks",
+		"minecraft:shroomlight",
+		"minecraft:weeping_vines",
+		"minecraft:weeping_vines_plant",
+		"minecraft:twisting_vines",
+		"minecraft:twisting_vines_plant",
+		"minecraft:brown_mushroom_block",
+		"minecraft:red_mushroom_block"
+	]
+}

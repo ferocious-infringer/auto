@@ -1,0 +1,16 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"# #",
+		"#O#",
+		"# #"
+	],
+	"key": {
+		"#": { "item": "minecraft:diamond" },
+		"O": { "item": "minecraft:leather" }
+	},
+	"result": {
+		"item": "minecraft:diamond_horse_armor",
+		"count": 1
+	}
+}

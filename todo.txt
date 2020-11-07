@@ -1,0 +1,124 @@
+Dictionary
+	V Completed
+	X Abandoned
+	- Waiting to do
+
+* Gems
+	V Creates power-up gems
+		speed, jump boost, night vision, water breathing, slow falling, haste, health boost, saturation
+
+* Recipe
+	V Enchanted golder apple
+	V Elytra, Shulker boxes, Rockets with Flight 127
+	V Chain mail armour
+	V Spider web
+	X Magma block
+				Apparently you can already make magma block using magma cream
+		----------
+	V Lava
+	V Soul sand
+	V Soul soil
+	V Dispenser from dropper
+	V Coral block (from coral fans or coral)
+	V Nether wart from nether wart block
+	V Unpack ice
+
+* Blocks
+	V Persistent sponge
+	V Make dragon egg renewable
+
+* Entity
+	X Try creating an entity chest, an infinity storage.
+	  Inspired by the death loot.
+				There is no way of showing how much item the entity chest has, and this may cause a really deep stack.
+				More over, when the entity chest (armor stand) is killed, there is no way of retrieving the items.
+		----------
+
+* Mine
+	V Create auto mine, auto dig, and auto chop.
+	V Create auto destroyer. Like the magma block, but cover larger area.
+	  So that destroying structures are faster.
+	V Create leaf collector
+
+* Quick notes
+	- Read on data storage, or execute store on storage, maybe nbt storage can be useful in the future.
+	- Find a way to check if an entity has sky access.
+	- Check out advancement. Maybe it can help for the item durability notification. Inspired by the vanilla tweaks.
+	- Understand the power of advancement and how it can be even more powerful than bare scoreboards.
+		Note that advancement can contains nbt, while scoreboards are very limited.
+	- See how the teleportation mechanics in Vanilla Tweaks works.
+		Because so far you cannot modify player nbt data.
+		And how on earth would you make a reliable way of teleporting player using another entity?
+		And find out how they load unloaded chunks when trying to teleport player to a location.
+	- Learn how all the player heads, tp, and graves in vanilla tweaks have player lock.
+		How can I also apply the same player lock to my armor stand grave?
+	- Try making the ray tracing (circle) test for direct line of sight?
+
+** Priority
+	- Item durability notification.
+		Either tell the player when it's about to break. Maybe do it when selected slot is an item with less durability. And only tell once, but when reselected tell again.
+		Or include it in the HUD, along with the other informations like coordinates.
+	- Make mob friendly
+
+# Completed
+	V Exploding arrows
+	V Exploding melons
+	V See if the random chance predicate can be used to spawn new custom mobs.
+		When spawning a new mob, find a way to make the kill works gracefully.
+		That is no death animation, no particles.
+		And if the process takes several ticks, find a way to make it not interfere with the current running process.
+		That is things such as no double mob spawning, etc.
+	V Find out how to get how long an entity has lived for.
+	V Add killer bunny
+		Find a way to make it despawn.
+	V Apparently predicate can check the vehicle of an entity.
+		See if it can be used for giants.
+	V Make chair
+	V Make tnt punchable
+	V Make a freezer
+	V Should the grave automatically disappear after a certain amount of time?
+				No.
+		----------
+	V Make mobs that have child state to be able to be converted into its child form.
+	V Move dimension, rotation and y-rot-4 to player.
+	V Collect leaves
+			Get block id, try to break, if successful summon an item with the appropriate leaf block.
+			Check leaves[distance], maybe it can be used to determine what kind of leaves needs to be removed.
+	V Look into how vanilla tweaks make horse armors craftable.
+	V Blocks compression and decompression recipes.
+		Like nether wart, ice, wool, gravel, etc.
+		Make gravel from cobblestone.
+	V Recipe for sponges by burning wool.
+	V Find a good way to make recipe for both dirts and clay.
+		They need to use water, but how to make the recipe easy to make? (aka. stackable, because water buckets and filled water bottles are not)
+	V Check predicate for random chance.
+		Check also execute command for predicate and target selector with predicate filter.
+		Get an understanding of how predicate works, not only for entities but other things too like blocks, weather, dimension, biome, etc.
+	V Grow corals
+			Check adjacent of adjacent block, get coral id, duplicate.
+			Apparently corals fans can be grown using bone meal. Look into the option of making coral block from coral fans.
+	V Grow pumpkins and melons
+			Something to do with checking the adjacent of the adjacent block for stems and whether they are already connected.
+	V See what blocks are not renewable in the new nether updates.
+		Apparently black stones might not be renewable. And if so, make a recipe for it. Take some inspirations from the vanilla tweaks.
+				Note: I didn't add recipe for this because you can get black stone from Piglin bartering.
+		----------
+	V Make circle
+	V Make a bin
+
+# Abandoned
+	X Check out vanilla tweaks on combining Chestplate with Elytra.
+				Not ideal, as durability is fixed on elytra's default durability.
+		----------
+	X Study how the loot table mechanics works.
+		It seems to be there is something where you can copy nbt data for the items. Might be blocks and other things.
+		See if it can be used to make spawners, and heck other arbitrary blocks to be mineable too.
+				This can already be done through transporter block. Although you can't bring it though portal, but the mechanic is sufficient enough.
+				Another note, I was also would like to have custom spawner, by getting id from literal entity. However, apparently the id nbt tag no longer exist, making it impossible to retrieve an entity's type.
+		----------
+	X Rideable ender dragon?
+				It is not pretty. Neither with a horse, nor a minecart. Also, you can't tame nor control it.
+		----------
+	X Rideable giant?
+				Although you can ride it, you can't control it. Making the feature redundant other than for aesthetic purposes.
+		----------

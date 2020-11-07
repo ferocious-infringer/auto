@@ -1,0 +1,8 @@
+{
+	"type": "smelting",
+	"ingredient": {
+		"item": "minecraft:dirt"
+	},
+	"result": "minecraft:podzol",
+	"experience": 1
+}
